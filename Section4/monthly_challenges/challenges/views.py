@@ -34,7 +34,8 @@ def monthly_challenge_by_number(request, month):
     if month > len(months):
         return HttpResponseNotFound("Invalid month.")
     redirect_mouth = months[month - 1]
-    redirect_path = reverse("month-challenge", args=[redirect_mouth])  # /challenge/january
+    redirect_path = reverse(
+        "month-challenge", args=[redirect_mouth])  # /challenge/january
     return HttpResponseRedirect(redirect_path)
 
 
