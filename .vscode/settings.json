@@ -1,0 +1,6 @@
+{
+    "emmet.showSuggestionsAsSnippets": true,
+    "editor.screenReaderAnnounceInlineSuggestion": true,
+    "emmet.preferences": {},
+    "emmet.triggerExpansionOnTab": true
+}
